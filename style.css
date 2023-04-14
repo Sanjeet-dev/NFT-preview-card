@@ -93,6 +93,9 @@ body{
     font-size:13px;
     color:var(--Cyan);
 }
+hr{
+    color: var(--Very-dark-blue-line);
+}
 .profile{
     margin-top:15px;
     display:flex;
@@ -100,12 +103,13 @@ body{
     gap:11px;
 }
 
-.profile > p{
+.profile p{
     color:var(--White);
-    opacity:0.5;
+
 }
-.profile > p > span{
+.profile p span{
     cursor:pointer;
     font-weight:500;
+    font-size:small;
 }
 
