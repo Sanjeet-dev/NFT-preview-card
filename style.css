@@ -48,8 +48,64 @@ body{
     background-color: var(--Very-dark-blue-card);
     padding:1rem;
 }
-.image > img {
+.image img {
     height:13rem;
     width:15rem;
     border-radius:10px;
 }
+.image img:hover{
+    background-image: url(./images/icon-view.svg);
+    cursor:pointer;
+}
+.summary > h4{
+    color: var(--White);
+    margin-top:12px;
+    margin-bottom:12px;
+}
+.summary > h4 > span{
+    cursor:pointer;
+    color: var(--White);
+}
+.summary p{
+    color:var(--Soft-blue);
+    font-weight:400;
+    opacity:0.8;
+    font-size:small;
+}
+
+.eth{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#ethereum{
+    display:flex;
+    flex-direction:row;
+    gap:7px;
+}
+#clock-view{
+    display:flex;
+    flex-direction:row;
+    gap:6px;
+}
+.numeth{
+    font-size:13px;
+    color:var(--Cyan);
+}
+.profile{
+    margin-top:15px;
+    display:flex;
+    flex-direction:row;
+    gap:11px;
+}
+
+.profile > p{
+    color:var(--White);
+    opacity:0.5;
+}
+.profile > p > span{
+    cursor:pointer;
+    font-weight:500;
+}
+
